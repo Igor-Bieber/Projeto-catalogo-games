@@ -70,7 +70,7 @@ footer {
 .menu-lateral {
   display: flex;
   height: 100%;
-  width: 63px;
+  width: 85px;
   background-color: #4c0968;
   transition: 0.5s;
   overflow: hidden;
