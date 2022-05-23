@@ -109,22 +109,22 @@ ul li a {
   color: #ffffff;
   margin-left: 15px;
   padding-top: 7%;
+  align-items: flex-start;
 }
 
 .title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 3vh;
+  font-size: 120%;
   color: #ffffff;
   text-align: start;
 }
 
 .icon {
-  position: relative;
-  display: block;
+  display: flex;
   min-width: 60px;
-  font-size: 5vh;
+  font-size: 150%;
   color: #ffffff;
   padding-top: 3px;
 }
@@ -133,9 +133,9 @@ ul li a {
   background-color: #640d8a;
   border-radius: 5px;
   width: 80%;
-  height: 50px;
-  display: flex;
-  align-items: center;
+  height: 10%;
+  align-items: flex-start;
+  padding-bottom: 6%;
 }
 
 .baner-container {
