@@ -115,7 +115,7 @@ ul li a {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 30px;
   color: #ffffff;
   text-align: start;
 }
@@ -124,7 +124,7 @@ ul li a {
   position: relative;
   display: block;
   min-width: 60px;
-  font-size: 18px;
+  font-size: 30px;
   color: #ffffff;
   padding-top: 3px;
 }
