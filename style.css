@@ -70,15 +70,21 @@ footer {
 .menu-lateral {
   display: flex;
   height: 100%;
-  width: 5%;
+  width: 9%;
   background-color: #4c0968;
   transition: 0.5s;
   overflow: hidden;
+}
+.menu-lateral .title {
+  color: #4c0968;
 }
 
 .menu-lateral:hover {
   width: 20%;
   height: 100%;
+}
+.menu-lateral:hover .title {
+  color: #ffffff;
 }
 
 ul {
@@ -101,7 +107,8 @@ ul li a {
   display: flex;
   text-decoration: none;
   color: #ffffff;
-  margin: 10px;
+  margin-left: 15px;
+  padding-top: 7%;
 }
 
 .title {
@@ -122,7 +129,7 @@ ul li a {
   padding-top: 3px;
 }
 
-.fundo-home {
+.menu-lateral:hover .fundo-home {
   background-color: #640d8a;
   border-radius: 5px;
   width: 80%;
